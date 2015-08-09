@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="jAlert-master/src/jAlert-v3.css" />
+    <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    <link rel="stylesheet" href="css/ihover.css"/>
+    <link href="css/addbook.css" rel="stylesheet">
+    <title>
+      فروشگاه کتاب
+    </title>
+</head>
+<body>
+    <header class="header">
+      <div class="row">
+        <div class="col-md-6 calendar">
+        </div>
+        <div class="col-md-6 logo">
+          <img src="images/logo.png" alt="Book Site"/>
+          <h1>
+            فروشگاه کتاب
+          </h1>
+        </div>
+      </div>
+
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#sidr">
+              <span class="glyphicon glyphicon-menu-hamburger menu-toggle">
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="sidr">
+        <!-- Your content -->
+        <ul>
+          <li class="back11">
+            <a href="#sidr" class="text-center glyphicon glyphicon-forward"></a>
+          </li>
+        </ul>
+
+        <ul>
+          <header id="demoheader">
+              <h2>جستجو</h2>
+          </header>
+          <li class="search-box">
+            <form class="">
+              <input type="text" name="search" placeholder="جستجو" class="search">
+            </form>
+          </li>
+
+          <header id="demoheader">
+            <h2>اضافه کردن کتاب</h2>
+          </header>
+          <li><a href="#" class="text-center">اضافه کردن کتاب</a></li>
+
+          <header id="demoheader">
+            <h2>لیست کتاب‌ها</h2>
+          </header>
+          <li class="active"><a href="#" class="text-center">مهندسی</a></li>
+          <li><a href="#" class="text-center">کشاورزی</a></li>
+          <li class="active"><a href="#" class="text-center">علوم محض</a></li>
+          <li><a href="#" class="text-center">علوم انسانی</a></li>
+          <li><a href="#" class="text-center">عمومی</a></li>
+
+          <header id="demoheader">
+            <h2>پیام</h2>
+          </header>
+          <li><a href="#" class="text-center">ارسال پیام</a></li>
+          <li><a href="#" class="text-center">صندوق پیام</a></li>
+          <li><a href="#" class="text-center">پیام‌های ارسال شده</a></li>
+
+          <header id="demoheader">
+            <h2>حساب</h2>
+          </header>
+          <li><a href="#" class="text-center">تغییر رمز</a></li>
+          <li><a href="#" class="text-center">خروج</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="main">
+      <header >
+        <h2>عنوان</h2>
+      </header>
+      <div class="row">
+        <form>
+          <div class="row">
+            <div class="col-sm-12">
+              <label for="" class="pull-right" style="margin-right: 1px;">عنوان کتاب</label>
+              <input id="title" type="text" name="title" class="pull-right" placeholder="موضوع پیام" style="margin-right: 15px;width: 39%;direction:rtl">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <label for="" class="pull-right" style="margin-right: 1px;">موضوع</label>
+              <select id="selectpicker" class="selectpicker" >
+                <option>انتخاب کنید ...</option>
+                <option>مهندسی</option>
+                <option>کشاورزی</option>
+                <option>علوم محض</option>
+                <option>علوم انسانی</option>
+                <option>عمومی</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <label for="" class="pull-right" style="margin-right: 1px;">آپلود عکس</label>
+              <input id="uploadFile" type="file" name="uploadFile" class="pull-right" placeholder="موضوع پیام" style="margin-right: 15px;width: 39%;direction:rtl">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <label for="" class="pull-right" style="">توضیحات</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <textarea id="description" style="" name="message" class="pull-right description" placeholder="توضیحات"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 ">
+              <input id="registerBook" type="button" value="ارسال" class="pull-right">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="col-xs-12">
+        <p>
+          تمام حقوق این سایت متعلق به <a>دانشگاه زنجان</a> می باشد.
+        </p>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/addbook.js"></script>
+    <script src="jAlert-master/src/jAlert-v3.js"></script>
+    <script src="jAlert-master/src/jAlert-functions.js"> //optional!!</script>
+    <script src="sidr/jquery.sidr.min.js"></script>
+    <script src="tinymce/tinymce.min.js"></script>
+    <script type="text/javascript">
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+@import "../font/font.css";
+*{
+  margin: 0;
+}
+body{
+  font-family: "IRMitra";
+
+}
+.body{
+  background: url(../images/back2.jpg) fixed no-repeat;
+  background-size: 100% 100%;
+}
+.row{
+  margin: 0;
+}
+
+.header{
+  min-height: 50px;
+}
+.header .col-md-6{
+  margin-bottom: 20px;
+}
+.logo{
+
+}
+.logo~.col-md-12 h1{
+  margin-top: 0px;
+  text-align: right;
+  margin-bottom: 0px;
+  color: #0B6E00;
+}
+.logo img{
+  width: 100px;
+  height: 85px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+
+}
+
+.nav-bar{
+  min-height: 60px;
+
+  margin-top: 0px;
+}
+.nav-bar>ul{
+
+  min-height: inherit;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+.nav-bar>ul>li{
+  position: relative;
+  display: block;
+  float: left;
+}
+.nav-bar>ul a{
+  text-decoration: none;
+
+}
+.nav-bar>ul a i.search,.nav-bar>ul a i.user{
+  transition:all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  font-size: 40px;
+
+  padding-top: 20px;
+  color: rgb(20, 170, 31);
+}
+.nav-bar>ul a i.search:hover,
+.nav-bar>ul a i.user:hover{
+  color: #047122;
+}
+.nav-bar>ul a i.search{
+  transform: rotateY(180deg);
+}
+.nav-bar>ul a i.user{
+  margin-right: 10px;
+}
+
+.search-box{
+  display: none;
+}
+.search-box .search-input{
+  height: 60px;
+  background-color: rgba(155, 1, 82, 0.95);
+  width: 100%;
+  line-height: 40px;
+  font-size: 29px;
+  outline: medium none;
+  border: medium none;
+  padding-right: 30px;
+  direction: rtl;
+  color: white;
+}
+.search-box .search-input:lang(en){
+  direction: ltr;
+}
+
+.main{
+  min-height: 487px;
+}
+.main>.col-sm-6{
+  position: relative !important;
+  margin: auto ;
+  float: none;
+  margin-top: 30px;
+}
+.main .article{
+  min-height: 50px;
+  color: #14AA1F;
+  margin-bottom: 50px;
+}
+.main .article h2{
+  font-size: 35px;
+}
+.main .article p{
+  font-size: 20px;
+}
+.main .input-box{
+  position: relative;
+  margin: auto;
+  float: none;
+}
+.rtl{
+  direction: rtl;
+}
+.book-text-container1{
+  width: 75%;
+}
+.book-text-container2{
+  width: 25%;
+}
+.book-text-container1 .book-text,
+.book-text-container2 .book-button{
+  width: 100%;
+  outline: none;
+  border: none;
+  min-height: 30px;
+  direction: rtl;
+}
+.book-text-container1 .book-text{
+  font-size: 17px;
+}
+.book-text-container2 .book-button{
+  background-color: #14AA1F;
+  color: white;
+  font-size: 15px;
+  transition: background-color .4s ease;
+  -moz-transition: background-color .4s ease;
+  -webkit-transition: background-color .4s ease;
+  -o-transition: background-color .4s ease;
+  -ms-transition: background-color .4s ease;
+}
+.book-text-container2 .book-button:hover{
+  background-color: #047122;
+}
+
+.footer{
+  min-height: 80px;
+  background-color: rgba(14, 14, 15, 0.69);
+}
+.footer .footer-box a{
+  text-decoration: none;
+  width: 100%;
+  font-size: 22px;
+  line-height: 68px;
+  color: #f5f6e8;
+  border-radius: 0;
+}
+.about-us{
+  background-color: #A1652B;
+}
+.programmers{
+  background-color: #1C812F;
+}
+.contact-us{
+  background-color: #044E57;
+}
+.footer .col-xs-12 p{
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+  margin: 10px auto !important;
+}
+
+.login,.password,.username,.register{
+  width: 100%;
+  font-size: 17px;
+  margin-top: 2px;
+  outline: none;
+  direction: rtl;
+  border-radius: 1px;
+  border: solid 1px;
+}
+.username,.password{
+  text-align: center;
+}
+.password{
+  margin-top: 3px;
+}
+.login,.register{
+  color: #FFF;
+  padding-bottom: 3px;
+  transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -webkit-transition: background-color 0.4s ease;
+  -ms-transition: background-color 0.4s ease;
+}
+.login{
+  background-color: #14AA1F;
+  margin-top: 3px;
+}
+.login:hover{
+  background-color: #0a8a13;
+}
+.register{
+  background-color: rgb(212, 154, 4);
+}
+.register:hover{
+  background-color: rgb(180, 132, 8);
+}
+.ja_close {
+    top: 7px;
+    right: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #FFF;
+    padding: 6px 13px 3px 13px;
+    background-color: rgb(249, 6, 21);
+}
+.ja_close:hover{
+  background-color: rgb(129, 3, 7);
+}
+.jAlert {
+    border-radius: 0px;
+}

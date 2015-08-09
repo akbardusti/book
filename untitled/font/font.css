@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'IRMitra';
+	src: url('./IRMitra.eot');
+	src: local('IRMitra'), url('./IRMitra.woff') format('woff'), url('./IRMitra.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_34242">Text with this font applied</p> */
+.fontsforweb_fontid_34242 {
+	font-family: 'IRMitra' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

@@ -1,0 +1,157 @@
+@import "../font/font.css";
+*{
+  margin: 0;
+}
+body{
+  font-family: "IRMitra";
+}
+.row{
+  margin: 0;
+}
+
+.header{
+  min-height: 50px;
+  background: #1D1E14 url(../images/back3.jpg);
+  background-size: 100% 100%;
+}
+.header .col-md-6{
+  margin-bottom: 20px;
+}
+.logo{
+  margin-top: 20px;
+}
+.logo h1{
+  margin-top: 10px;
+  color: rgb(11, 107, 0);
+  text-align: right;
+}
+.logo img{
+  width: 100px;
+  height: 85px;
+  float: right;
+}
+
+.nav-bar{
+  min-height: 60px;
+  background-color: rgba(179, 210, 24, 0.67);
+  margin-top: 10px;
+  width: 100%;
+}
+.nav-bar>ul{
+  min-height: inherit;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+.nav-bar>ul>li{
+  position: relative;
+  display: block;
+  float: right;
+}
+.nav-bar>ul a{
+  text-decoration: none;
+
+}
+.nav-bar>ul a span.menu-toggle{
+  font-size: 40px;
+  margin-top: 11px;
+  margin-right: 14px;
+  color: #0C8001;
+  transition:all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+
+}
+.nav-bar>ul a span.menu-toggle:hover{
+}
+
+.main{
+  min-height: 600px;
+  background-color: #04252C;
+  padding-top: 11px;
+}
+.main header h2{
+  direction: rtl;
+  text-align: right;
+  padding-right: 17px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.main .row .col-sm-3 {
+  margin-top: 40px;
+}
+
+
+.footer .col-xs-12{
+    background-color: rgb(21, 24, 21);
+}
+.footer .col-xs-12 p{
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+  margin: 10px auto !important;
+}
+.title{
+  background-color: #04252C;
+  margin: 2px 5px;
+  border-radius: 4px;
+}
+.message-container{
+  min-height: 40px;
+  background-color: #249EB9;
+  margin: 2px 5px;
+  border-radius: 4px;
+}
+.request-title,.request-username,.request-date{
+  line-height: 38px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+#sidr ul li a{
+  font-family: "IRMitra";
+}
+#sidr ul li.back11 a{
+  font-size: 40px;
+  padding: 6px;
+  font-family: "Glyphicons Halflings";
+}
+#sidr .search{
+  background-color: #fff;
+  direction: rtl;
+  font-family: "IRMitra";
+  font-size: 17px;
+  height: 30px;
+  color: #000;
+}
+#sidr li.search-box{
+  border-top:none;
+}
+.sidr h2{
+  text-align: right;
+  font-family: "IRMitra";
+  font-size: 13px;
+}
+
+@media(max-width: 900px){
+  .col-sm-3{
+    width: 33.33%;
+    float: left;
+  }
+}
+@media(max-width: 700px){
+  .col-sm-3{
+    width: 50%;
+    float: left;
+  }
+}
+@media(max-width: 420px){
+  .col-sm-3{
+    width: 100%;
+    float: left;
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
