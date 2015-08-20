@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+.header {
+    min-height: 60px;
+}
+.header-border{
+    background-image: url('../images/top-border.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 13px;
+    margin-bottom: 50px;
+
+}
+.logo{
+    width: 162px;
+    height: 39px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+.book-trash{
+    background-image: url('../images/book-trash.png');
+    background-repeat: no-repeat;
+    height: 216px;
+    width: 144px;
+}
+.main-welcome{
+    direction: rtl;
+    font-size: 24px;
+    font-family: Arial;
+}
+.my-button{
+    color: #dcd7d7;
+    background-color: #3a3a3c;
+    font-size: 24px;
+    border: solid;
+    border-image: url("../images/squar-border.png") 30 30 round ;
+    border-image-outset: 3px;
+    border-width: 10px;
+}
+.my-button:hover{
+    font-size: 25px;
+}
+.my-input{
+    border: solid;
+    border-image: url("../images/squar-border.png") 30 30 round ;
+    border-image-outset: 3px;
+    border-width: 10px;
+}
+.top-search-input{
+    border: solid;
+    border-image: url("../images/squar-border.png") 30 30 round ;
+    border-image-outset: 3px;
+    border-width: 10px;
+    width: 300px;
+    direction: rtl;
+    font-size: 16px;
+}
+.footer{
+    border-color: #5e5d5d;
+    border-width: 1px;
+    color: #5e5d5d;
+    border-top: solid;
+    margin-top: 70px;
+    direction: rtl;
+}
+.footer a{
+    color: #5e5d5d;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #000000;
+}
+.book-box{
+    text-align: center;
+}
+.book-box-pic{
+    border: solid;
+    border-image: url("../images/border-input-150.png") 30 30 round ;
+    border-image-outset: 3px;
+    border-width: 10px;
+    height: 200px;
+}
+.book-box-text{
+    padding-top: 10px;
+    text-align: center;
+    direction: rtl;
+    font-size: 18px;
+}
+.right-menu{
+    border-color: #999999;
+    border-bottom: solid;
+    border-width: 1px;
+    direction: rtl;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.little-white-book{
+    width: 50px;
+    height: 24px;
+    background-image: url('../images/little-white-book.png');
+}

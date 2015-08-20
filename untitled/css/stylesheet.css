@@ -1,0 +1,64 @@
+.cus {
+    background-image: url(../images/sprite.png);
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+
+.cus-Home-50 {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -5px;
+}
+
+.cus-Home-55 {
+    width: 55px;
+    height: 55px;
+    background-position: -65px -5px;
+}
+
+.cus-search-50 {
+    width: 50px;
+    height: 50px;
+    background-position: -130px -5px;
+}
+
+.cus-search-55 {
+    width: 55px;
+    height: 55px;
+    background-position: -190px -5px;
+}
+
+.cus-searchbutton-50 {
+    width: 50px;
+    height: 49px;
+    background-position: -255px -5px;
+}
+
+.cus-user_key-50 {
+    width: 50px;
+    height: 50px;
+    background-position: -315px -5px;
+}
+
+.cus-user_key-55 {
+    width: 55px;
+    height: 55px;
+    background-position: -375px -5px;
+}
+.cus-user_key-50:hover {
+    width: 55px;
+    height: 55px;
+    background-position: -375px -5px;
+}
+.cus-search-50:hover {
+    width: 55px;
+    height: 55px;
+    background-position: -190px -5px;
+}
+
