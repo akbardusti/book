@@ -1,6 +1,6 @@
 @import "../font/font.css";
 *{
-  margin: 0;
+  margin: 0px;
 }
 body{
   font-family: "IRMitra";
@@ -10,8 +10,10 @@ body{
 }
 
 .header{
+  margin-top: -10px;
   min-height: 50px;
-  background: #1D1E14 url(../images/back3.jpg);
+  background-color: #c0d34b;
+  /*background: url(../images/back.jpg);*/
   background-size: 100% 100%;
 }
 .header .col-md-6{
@@ -33,7 +35,7 @@ body{
 
 .nav-bar{
   min-height: 60px;
-  background-color: rgba(179, 210, 24, 0.67);
+/*  background-color: rgba(11, 115, 119, 0.43);*/
   margin-top: 10px;
   width: 100%;
 }
@@ -53,22 +55,27 @@ body{
 
 }
 .nav-bar>ul a span.menu-toggle{
-  font-size: 40px;
-  margin-top: 11px;
+  font-size: 30px;
+
   margin-right: 14px;
-  color: #0C8001;
+  color: #1ba9e1;
   transition:all .1s ease;
   -moz-transition: all .1s ease;
   -o-transition: all .1s ease;
   -webkit-transition: all .1s ease;
 
 }
-.nav-bar>ul a span.menu-toggle:hover{
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
 }
-
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
 .main{
   min-height: 600px;
-  background-color: #0C8001;
+  background-color: #f4f1ea;
   padding-top: 11px;
 }
 .main header h2{
@@ -76,8 +83,7 @@ body{
   text-align: right;
   padding-right: 17px;
   border-bottom: 1px solid #fff;
-  color: #fff;
-  padding-bottom: 10px;
+  color: #282924;
 }
 .main .row .col-sm-3 {
   margin-top: 40px;
@@ -95,11 +101,10 @@ body{
     height: 100%;
 }
 .more a{
-  background-color:#2BC804;
+  background-color: #106978;
   margin-top: 40px;
   font-size: 23px;
   color: #fff;
-  border-radius: 0;
 }
 .footer .col-xs-12{
     background-color: rgb(21, 24, 21);
@@ -135,31 +140,4 @@ body{
   text-align: right;
   font-family: "IRMitra";
   font-size: 13px;
-}
-#tinymce-13{
-
-}
-.ih-item.square.effect6.colored .info {
-    background: rgba(25, 140, 225, 0.44) none repeat scroll 0% 0%;
-}
-
-@media(max-width: 900px){
-  .col-sm-3{
-    width: 33.33%;
-    float: left;
-  }
-}
-@media(max-width: 700px){
-  .col-sm-3{
-    width: 50%;
-    float: left;
-  }
-}
-@media(max-width: 420px){
-  .col-sm-3{
-    width: 100%;
-    float: left;
-    padding-right: 4%;
-    padding-left: 4%;
-  }
 }
