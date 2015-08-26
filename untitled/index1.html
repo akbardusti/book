@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="jAlert-master/src/jAlert-v3.css" />
     <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/ihover.css"/>
     <link href="css/style.css" rel="stylesheet">
     <title>
@@ -14,12 +15,60 @@
     </title>
 </head>
 <body>
+  <div id="wrapper">
+<!-- Your content -->
+          <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+              <li class="back11">
+                <a href="#sidr" class="text-center glyphicon glyphicon-forward"></a>
+              </li>
+            </ul>
+
+            <ul class="sidebar-nav">
+              <header id="demoheader">
+                  <h2>جستجو</h2>
+              </header>
+              <li class="search-box">
+                <form class="">
+                  <input type="text" name="search" placeholder="جستجو" class="search">
+                </form>
+              </li>
+
+              <header id="demoheader">
+                <h2>اضافه کردن کتاب</h2>
+              </header>
+              <li><a href="#" class="text-center">اضافه کردن کتاب</a></li>
+
+              <header id="demoheader">
+                <h2>لیست کتاب‌ها</h2>
+              </header>
+              <li class="active"><a href="#" class="text-center">مهندسی</a></li>
+              <li><a href="#" class="text-center">کشاورزی</a></li>
+              <li class="active"><a href="#" class="text-center">علوم محض</a></li>
+              <li><a href="#" class="text-center">علوم انسانی</a></li>
+              <li><a href="#" class="text-center">عمومی</a></li>
+
+              <header id="demoheader">
+                <h2>پیام</h2>
+              </header>
+              <li><a href="#" class="text-center">ارسال پیام</a></li>
+              <li><a href="#" class="text-center">صندوق پیام</a></li>
+              <li><a href="#" class="text-center">پیام‌های ارسال شده</a></li>
+
+              <header id="demoheader">
+                <h2>حساب</h2>
+              </header>
+              <li><a href="#" class="text-center">تغییر رمز</a></li>
+              <li><a href="#" class="text-center">خروج</a></li>
+            </ul>
+          </div>
+  
     <header class="header">
       <nav class="nav-bar">
 
             <ul class="nav navbar-nav navbar-right" >
               <li>
-                <a href="#sidr">
+                <a id="menu-toggle">
                   <span class="glyphicon glyphicon-menu-hamburger menu-toggle">
                   </span>
                 </a>
@@ -58,215 +107,18 @@
               <li><a href="#">خروج</a></li>
           </ul>
       </nav>
-      <div id="sidr">
-        <!-- Your content -->
-        <ul>
-          <li class="back11">
-            <a href="#sidr" class="text-center glyphicon glyphicon-forward"></a>
-          </li>
-        </ul>
-
-        <ul>
-          <header id="demoheader">
-              <h2>جستجو</h2>
-          </header>
-          <li class="search-box">
-            <form class="">
-              <input type="text" name="search" placeholder="جستجو" class="search">
-            </form>
-          </li>
-
-          <header id="demoheader">
-            <h2>اضافه کردن کتاب</h2>
-          </header>
-          <li><a href="#" class="text-center">اضافه کردن کتاب</a></li>
-
-          <header id="demoheader">
-            <h2>لیست کتاب‌ها</h2>
-          </header>
-          <li class="active"><a href="#" class="text-center">مهندسی</a></li>
-          <li><a href="#" class="text-center">کشاورزی</a></li>
-          <li class="active"><a href="#" class="text-center">علوم محض</a></li>
-          <li><a href="#" class="text-center">علوم انسانی</a></li>
-          <li><a href="#" class="text-center">عمومی</a></li>
-
-          <header id="demoheader">
-            <h2>پیام</h2>
-          </header>
-          <li><a href="#" class="text-center">ارسال پیام</a></li>
-          <li><a href="#" class="text-center">صندوق پیام</a></li>
-          <li><a href="#" class="text-center">پیام‌های ارسال شده</a></li>
-
-          <header id="demoheader">
-            <h2>حساب</h2>
-          </header>
-          <li><a href="#" class="text-center">تغییر رمز</a></li>
-          <li><a href="#" class="text-center">خروج</a></li>
-        </ul>
-      </div>
+      
     </header>
 
     <section class="main">
-      <header >
-        <h2>عنوان</h2>
-      </header>
+      
       <div class="row">
-        <div class="col-sm-3">
-
-          <!-- colored -->
-          <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-              <div class="img">
-                <img src="images/back.jpg" alt="img">
-              </div>
-              <div class="info">
-                <h3>مهندسی نرمافزار</h3>
-                <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-              </div></a></div>
-          <!-- end colored -->
-        </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
-          <div class="col-sm-3">
-
-              <!-- colored -->
-              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                  <div class="img">
-                      <img src="images/back.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                      <h3>مهندسی نرمافزار</h3>
-                      <p>کتاب مهندسی نرمافزار مختص دانشجویان نرمافزار</p>
-                  </div></a></div>
-              <!-- end colored -->
-          </div>
+        
+          
+          
+          <header >
+            <h2>عنوان</h2>
+          </header>
           <div class="col-sm-3">
 
               <!-- colored -->
@@ -281,9 +133,11 @@
               <!-- end colored -->
           </div>
       </div>
+      
       <div class="row more">
         <a href="#" class="btn col-xs-12">بیشتر</a>
       </div>
+
     </section>
 
     <footer class="footer">
@@ -293,6 +147,7 @@
         </p>
       </div>
     </footer>
+  </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/src.js"></script>

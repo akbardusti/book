@@ -7,8 +7,7 @@ body{
 
 }
 .body{
-  background: url(../images/back2.jpg) fixed no-repeat;
-  background-size: 100% 100%;
+  background-color: #c0d34b;
 }
 .row{
   margin: 0;
@@ -17,23 +16,31 @@ body{
 .header{
   min-height: 50px;
 }
+.header .brand-name{
+  position: absolute;
+  right: 12px;
+  top: 77px;
+}
+.header .brand-name h1{
+  text-align: right;
+  color: #0B6E00;
+}
 .header .col-md-6{
   margin-bottom: 20px;
+}
+.widget-container,.logo-container{
+  width: 50%;
+  float: right;
 }
 .logo{
 
 }
-.logo~.col-md-12 h1{
-  margin-top: 0px;
-  text-align: right;
-  margin-bottom: 0px;
-  color: #0B6E00;
-}
+
 .logo img{
   width: 100px;
   height: 85px;
   float: right;
-  margin-right: 20px;
+  margin-right: 18px;
   margin-top: 10px;
 
 }
@@ -48,7 +55,7 @@ body{
   min-height: inherit;
   margin-bottom: 0px;
   list-style: none;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 .nav-bar>ul>li{
   position: relative;
@@ -64,10 +71,10 @@ body{
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
   -webkit-transition: all .4s ease;
-  font-size: 40px;
+  font-size: 30px;
 
   padding-top: 20px;
-  color: rgb(20, 170, 31);
+  color: #7F9400;
 }
 .nav-bar>ul a i.search:hover,
 .nav-bar>ul a i.user:hover{
@@ -102,7 +109,7 @@ body{
 .main{
   min-height: 487px;
 }
-.main>.col-sm-6{
+.main>.row>.col-sm-7{
   position: relative !important;
   margin: auto ;
   float: none;
@@ -110,28 +117,37 @@ body{
 }
 .main .article{
   min-height: 50px;
-  color: #14AA1F;
   margin-bottom: 50px;
+  float: right;
 }
 .main .article h2{
   font-size: 35px;
+  color: #fff;
 }
 .main .article p{
   font-size: 20px;
+  color: #fff;
 }
 .main .input-box{
   position: relative;
   margin: auto;
-  float: none;
+  float: right;
+  padding: 0;
+}
+.recycle-container{
+  padding: 20px 0;
+}
+.recycle-container .recycle{
+  width: inherit;
 }
 .rtl{
   direction: rtl;
 }
 .book-text-container1{
-  width: 75%;
+  width: 80%;
 }
 .book-text-container2{
-  width: 25%;
+  width: 20%;
 }
 .book-text-container1 .book-text,
 .book-text-container2 .book-button{
@@ -145,7 +161,7 @@ body{
   font-size: 17px;
 }
 .book-text-container2 .book-button{
-  background-color: #14AA1F;
+  background-color: #7f9400;
   color: white;
   font-size: 15px;
   transition: background-color .4s ease;
@@ -155,7 +171,7 @@ body{
   -ms-transition: background-color .4s ease;
 }
 .book-text-container2 .book-button:hover{
-  background-color: #047122;
+  background-color: #5F6E05;
 }
 
 .footer{
@@ -236,4 +252,23 @@ body{
 }
 .jAlert {
     border-radius: 0px;
+}
+
+@media (max-width: 768px){
+  .logo img {
+      width: 65px;
+      height: 55px;
+      float: right;
+      margin-right: 2px;
+      margin-top: 10px;
+  }
+  .header .brand-name{
+    position: absolute;
+    right: 12px;
+    top: 67px;
+  }
+  .header .brand-name h1{
+    font-size: 23px;
+    margin-top: 0;
+  }
 }
